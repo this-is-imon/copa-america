@@ -28,7 +28,7 @@ a{
     text-decoration: none;
     color:#FFFFFF;
     font-size: 16px;
-    padding:10px ;
+    padding:15px ;
     border-bottom: 4px solid transparent;
     transition: border 0.6s linear;
 }
@@ -41,7 +41,7 @@ a{
     margin-right: 26px;
 }
 .login{
-    padding: 10px 24px;
+    padding: 10px 25px;
     background-color:#E02C6D;
     color:#FFFFFF;
     font-weight:500;
@@ -184,7 +184,7 @@ header{
     transition: color 0.4s ease-in;
 }
 .social a:hover{
-    color:red;
+    color:black
 }
 .bottom{
    margin-top:50px;
@@ -203,13 +203,6 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.contact-us{
-    color:gold;
-    margin:40px;
-}
-.contact-us h3, .contact-us h3{
-    letter-spacing: 3px;
 }
 
 .contact-us{
@@ -355,9 +348,8 @@ header{
     }
     .menu ul{
         display:none;
-        /* display: grid;
-        grid-template-columns: repeat(1,1fr); */
     }
+    
     .login{
         display: flex;
         width:auto;
